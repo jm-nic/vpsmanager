@@ -207,13 +207,13 @@ case "$x" in
    20)
    clear
    addhost
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    menu2
    ;;
    21)
    clear
    delhost
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    menu2
    ;;
    22)
@@ -319,12 +319,12 @@ case "$x" in
    1 | 01)
    clear
    criarusuario
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;
    2 | 02)
    clear
    criarteste
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;
    3 | 03)
    clear
@@ -334,7 +334,7 @@ case "$x" in
    4 | 04)
    clear
    sshmonitor
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;      
    5 | 05)
    clear
@@ -360,7 +360,7 @@ case "$x" in
    9 | 09)
    clear
    infousers
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;
    10)
    conexao
@@ -369,7 +369,7 @@ case "$x" in
    11)
    clear
    velocity
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;
    12)
    clear
@@ -389,7 +389,7 @@ case "$x" in
    ;;
    15)
    userbackup
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;
    16)
    limit_ssh
@@ -402,7 +402,7 @@ case "$x" in
    18)
    clear
    detalhes
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar \033[1;32mMENU!\033[0m"; read
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara regresar A \033[1;32mMENU!\033[0m"; read
    ;;
    19)
    menu2
