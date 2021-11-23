@@ -62,7 +62,7 @@ fun_tst () {
 speedtest --share > speed
 }
 echo ""
-echo -e "   \033[1;32mTESTANDO A VELOCIDADE DO SERVIDOR !\033[0m"
+echo -e "   \033[1;32mPROBANDO LA VELOCIDAD DEL SERVIDOR !\033[0m"
 echo ""
 aguarde 'fun_tst'
 echo ""
@@ -81,7 +81,7 @@ rm -rf $HOME/speed
 #limiter
 function limit1 () {
    clear
-   echo -e "\n\033[1;32mINICIANDO O LIMITER... \033[0m"
+   echo -e "\n\033[1;32mINICIANDO EL LIMITADOR... \033[0m"
    echo ""
    fun_bar 'screen -dmS limiter limiter' 'sleep 3'
    [[ $(grep -wc "limiter" /etc/autostart) = '0' ]] && {
