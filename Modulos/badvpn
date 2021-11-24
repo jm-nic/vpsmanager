@@ -66,7 +66,7 @@ fun_badvpn() {
             inst_udp
             fun_udpon
             echo ""
-            echo -e "\033[1;32mBADVPN ATIVADO COM SUCESSO\033[1;33m"
+            echo -e "\033[1;32mBADVPN ACTIVADO CON ÉXITO\033[1;33m"
             sleep 3
             fun_badvpn
         fi
@@ -105,7 +105,7 @@ fun_badvpn() {
         fi
     elif [[ "$resposta" = '0' ]]; then
         echo ""
-        echo -e "\033[1;31mRetornando...\033[0m"
+        echo -e "\033[1;31mRegresando...\033[0m"
         sleep 1
         menu
     else
